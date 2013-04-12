@@ -1,0 +1,21 @@
+{
+  "name": "pagon/pag",
+  "description": "Pagon Console Toolkit",
+  "keywords": ["pagon", "toolkit", "cli", "console"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Corrie Zhao",
+      "email": "hfcorriez@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9",
+    "pagon/pagon": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Pagon\\Pag": "lib/"
+    }
+  }
+}
